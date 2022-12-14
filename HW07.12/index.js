@@ -53,7 +53,7 @@ console.log(count2);
 
 function bubbleSort(arr) {
   for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr.length - i; j++) {
+    for (let j = 0; j < arr.length -i; j++) {
       if (arr[j] > arr[j + 1]) {
         let tmp = arr[j];
 
